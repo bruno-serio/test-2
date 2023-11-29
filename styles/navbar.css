@@ -43,11 +43,13 @@ header * {
     padding: 2px 5px;
     border-radius: 3px;
     margin: 0 10px;
+    user-select: none;
 }
 
 .nav-links li a {
     position: relative;
     transition: all 0.3 ease-in-out 0s;
+
 }
 
 .nav-links li a::before {
