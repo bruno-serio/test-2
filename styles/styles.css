@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&family=Roboto:wght@400;800&display=swap');
+
+.js-beforeLoading {
+    transition: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: transparent;
+    border-width: 0;
+}
+
+body {
+
+    background-color: rgb(173, 187, 197);
+    background-image: url('https://source.unsplash.com/xJ2tjuUHD9M');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    height: calc(100vh - 45px);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.maincontent {
+    padding: 40px 20px;
+}
+
+.content-wrapper {
+    padding: 10px 30px;
+    background-color: rgba(0,0,0,0.2);
+    background: linear-gradient(180deg, rgba(32, 32, 46, 0.3) 0%, rgba(0,0,0,0.1) 100%);
+    border-radius: 5px;
+    height: calc(100vh - 100px);
+    overflow: auto;
+}
+
+.content-wrapper p {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.section-bg-accent {
+    margin-top: 5px;
+    background-color: rgba(0,0,0,0.35);
+    border-radius: 3px;
+    padding: 10px 20px 8px 20px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: rgba(240, 248, 255, 0.8); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

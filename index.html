@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test 2 navbar</title>
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="styles/navbar.css" rel="stylesheet">
+</head>
+<body class="js-beforeLoading">
+    <header>
+        <div class="logo"><a href="#" class="logo-text"> LOGO </a></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">texto1</a></li>
+                <li><a href="#">texto2</a></li>
+                <li><a href="#">texto largo</a></li>
+            </ul>
+        </nav>
+        <a class="call-to-action" href="#"><button class="boton">botón</button></a>
+    </header>
+    <main>
+        <div class="maincontent">
+            <div class="content-wrapper">
+                <h1> Header </h1>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet placerat nulla. Nunc non elit dictum, mattis tortor eget, porta erat. 
+                    Etiam dignissim diam dui, non aliquam velit consectetur euismod. Nulla sem ligula, vestibulum at justo et, viverra egestas nisl. Nunc leo erat, 
+                    tempor vitae eros tempor, cursus molestie diam. Nunc ac elit et diam tincidunt interdum vitae in magna. Sed non enim placerat, molestie purus 
+                    posuere, vehicula ipsum. Vivamus tristique vehicula ante, non sodales dolor tincidunt in. Cras elit ex, tempus non cursus eget, convallis eget 
+                    erat. Nam nec libero elit.</p>
+
+                <p> Sed volutpat gravida sapien, at volutpat turpis hendrerit quis. Phasellus vitae faucibus purus. Morbi vitae nulla dui. Sed eu dolor ut augue 
+                    ornare blandit. Donec non facilisis urna. Donec semper luctus diam eu condimentum. Morbi nec nisi sit amet lectus congue varius. Sed a posuere 
+                    metus. Suspendisse pellentesque, purus nec vulputate suscipit, quam est vulputate risus, in pharetra magna quam eu erat. Cras lobortis eu dolor 
+                    at hendrerit. Vestibulum in quam euismod, scelerisque leo at, auctor libero. In hac habitasse platea dictumst. Aenean bibendum egestas quam, in 
+                    feugiat ipsum venenatis non. Etiam sollicitudin quis tortor sed vestibulum.</p>
+                    
+                <p> Sed volutpat gravida sapien, at volutpat turpis hendrerit quis. Phasellus vitae faucibus purus. Morbi vitae nulla dui. Sed eu dolor ut augue 
+                    ornare blandit. Donec non facilisis urna. Donec semper luctus diam eu condimentum. Morbi nec nisi sit amet lectus congue varius. Sed a posuere 
+                    metus. Suspendisse pellentesque, purus nec vulputate suscipit, quam est vulputate risus, in pharetra magna quam eu erat. Cras lobortis eu dolor 
+                    at hendrerit. Vestibulum in quam euismod, scelerisque leo at, auctor libero. In hac habitasse platea dictumst. Aenean bibendum egestas quam, in 
+                    feugiat ipsum venenatis non. Etiam sollicitudin quis tortor sed vestibulum.</p>
+
+                <p> Sed volutpat gravida sapien, at volutpat turpis hendrerit quis. Phasellus vitae faucibus purus. Morbi vitae nulla dui. Sed eu dolor ut augue 
+                    ornare blandit. Donec non facilisis urna. Donec semper luctus diam eu condimentum. Morbi nec nisi sit amet lectus congue varius. Sed a posuere 
+                    metus. Suspendisse pellentesque, purus nec vulputate suscipit, quam est vulputate risus, in pharetra magna quam eu erat. Cras lobortis eu dolor 
+                    at hendrerit. Vestibulum in quam euismod, scelerisque leo at, auctor libero. In hac habitasse platea dictumst. Aenean bibendum egestas quam, in 
+                    feugiat ipsum venenatis non. Etiam sollicitudin quis tortor sed vestibulum.</p>
+                <h2> Header 2 </h2>    
+                <p> Integer tempus volutpat massa, quis commodo metus facilisis quis. Maecenas ullamcorper convallis arcu ac tempor. Sed sed sodales felis. Sed a 
+                    neque in ligula aliquet accumsan sed quis ante. Donec sem libero, tincidunt a efficitur eu, aliquam vitae erat. Nam auctor pharetra semper. 
+                    Fusce a posuere tellus, sed malesuada tellus. Curabitur vulputate rhoncus elementum. Sed placerat commodo nisl vel mollis. Vivamus cursus 
+                    accumsan dolor, non sagittis lacus ullamcorper sed. Cras sed leo in orci fringilla consectetur. Nam hendrerit elit dignissim, scelerisque 
+                    turpis a, blandit justo.</p>
+                
+                <section class="section-bg-accent">
+                <p> Curabitur luctus lacus quam, at convallis orci pellentesque in. Ut eget dolor et est consectetur consectetur vitae in tellus. Sed sodales
+                    finibus libero, nec bibendum dui efficitur ut. In pulvinar at ipsum pellentesque bibendum. Sed hendrerit dui ac risus interdum viverra. Duis 
+                    tincidunt, diam ut feugiat posuere, metus elit cursus nunc, a efficitur mauris tortor vel turpis. Quisque ut augue in magna lobortis porta. 
+                    Donec vestibulum ullamcorper lorem, id pharetra metus rutrum id. Donec tellus risus, tincidunt at augue quis, condimentum fringilla turpis. 
+                    Ut ullamcorper molestie nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </p></section>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script>
+    const bodyElement = document.querySelector(".js-beforeLoading");
+
+    document.onreadystatechange = () => {
+        if (document.readyState === 'complete') {
+            //console.log('load');
+            bodyElement.classList.remove("js-beforeLoading");
+        }
+    };
+</script>
+</html>
